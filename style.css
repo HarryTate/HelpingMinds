@@ -1,0 +1,485 @@
+
+
+*{
+  font-family: 'Josefin Sans',sans-serif;
+  font-family: 'Righteous', sans-serif;
+}
+h1{
+ color:#BA265B;
+ font-weight:bold;
+}
+
+
+p{
+  font-family:'cabin',sans-serif;
+ font-size:20px;
+}
+
+strong{
+  color:#BA265B;
+}
+strong:hover{
+  color:#7C7EFF;
+
+}
+.navbar-default{
+  background-color:#0B3C5D;
+  color:black;
+  border: 0px;
+  border-radius:0px;
+}
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover,
+ .navbar-default .navbar-nav .active a:visited{
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:active, .navbar-default .navbar-brand:visited,  .navbar-default .navbar-brand{
+  color:white;
+}
+.navbar-nav ul li a, .navbar-nav ul li a:hover,.navbar-nav ul li a:active{
+  background-color:#7C7EFF;
+
+}
+.navbar-default .navbar-nav li a{
+  color:white;
+}
+.navbar{
+  margin-bottom:0px;
+}
+a .navbar-brand{
+  color:white;
+}
+
+
+ul.nav li:nth-child(4) a {
+padding-right: 140px !important;
+}
+
+.navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color:white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color:#7C7EFF;
+  color:white;
+}
+
+.header-image{
+  width:100%;
+
+  background-image:url("images/header-image.jpg");
+
+  /* Set a specific height */
+   height:300px;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.about{
+  margin:0 auto;
+  text-align:center;
+}
+
+
+.option{
+  margin:0 auto;
+  text-align:center;
+  height:200px;
+  cursor:pointer;
+
+}
+.option h3{
+    line-height:8.0em;
+    color:white;
+}
+#option-1{
+background-color:#65179C;
+}
+#option-1:hover{
+  background-color:#5b158d;
+}
+#option-2{
+background-color:#BA265B;
+}
+#option-2:hover{
+  background-color:#ac2354;
+}
+#option-3{
+ background-color:#74125C;
+}
+#option-3:hover{
+ background-color:#651050;
+}
+#option-4{
+background-color:#7C7EFF;
+}
+#option-4:hover{
+background-color:#6b6dff;
+}
+
+.overlay-color{
+  width:100%;
+}
+#overlay-color-1{
+ background-image:url('images/fact-image-1.jpg');
+}
+#overlay-color-2{
+ background-image:url('images/fact-image-2.jpg');
+}
+#overlay-color-3{
+  background-image:url('images/fact-image-3.jpg');
+
+}
+#overlay-color-4{
+  background-image:url('images/fact-image-4.jpg');
+
+}
+
+/* ===============
+   Positive Wellbeing
+   =============== */
+.facts-background {
+	height:500px;
+  margin-top:20px;
+	width:100%;
+	text-align:center;
+	font-size:50px;
+   color:#FFF;
+}
+.fact-each{
+width:100%;
+height:400px;
+padding:140px 80px 100px 100px;
+}
+
+.fact-text{
+  opacity:0;
+  width:100%;
+}
+#fact-1{
+ background-color:#0B3C5D;
+ opacity:0.4;
+}
+#fact-1:hover{
+  opacity:0.9;
+  background-color:#BA265B;
+}
+#fact-1:hover .fact-text{
+  opacity:1;
+}
+#fact-2{
+ background-color:#0B3C5D;
+ opacity:0.4;
+}
+#fact-2:hover{
+  opacity:0.9;
+  background-color:#74125C;
+}
+#fact-2:hover .fact-text{
+opacity:1;
+}
+
+#fact-3{
+ background-color:#0B3C5D;
+ opacity:0.4;
+}
+#fact-3:hover{
+  opacity:0.9;
+  background-color:#5B158D;
+}
+#fact-3:hover .fact-text{
+opacity:1;
+}
+
+#fact-4{
+ background-color:#0B3C5D;
+ opacity:0.4;
+}
+#fact-4:hover{
+  opacity:0.9;
+  background-color:#7C7EFF;
+}
+#fact-4:hover .fact-text{
+opacity:1;
+}
+.section-titles{
+  width:100%;
+	margin: 0 auto;
+}
+.section-titles h1{
+  text-align:center;
+}
+.tips-content-all {
+	height:120px;
+	border:solid 8px #D3D3D3 ;
+	margin:0 auto;
+	border-radius:60px;
+	margin-bottom:10px;
+  color:#D3D3D3;
+}
+.tips-content-all p{
+	display:block;
+	float:left;
+	text-align:left;
+	line-height:4.7em;
+  margin-left:30px;
+}
+.tips-content-all:hover{
+	border:solid 8px;
+  border-color:#7C7EFF;
+  color:#000;
+}
+.tips-content-all:hover h2{
+color:#BA265B;
+font-weight:1000;
+}
+.tips-content-all h2{
+	margin:22px 0 0 0;
+    text-transform:uppercase;
+    font-size:50px;
+}
+#s3-content-width-1{
+	width:50%;
+}
+#s3-content-width-2{
+	width:50%;
+}
+#s3-content-width-3{
+	width:50%;
+}
+#s3-content-width-4{
+	width:50%;
+}
+#s3-content-width-5{
+	width:50%;
+}
+
+/* ===============
+   Mental Health & Wellbeing
+   =============== */
+.mental-health-heading{
+margin: 0 auto;
+text-align:center;
+}
+
+.mental-health-heading ul{
+  list-style: none;
+  display:inline;
+}
+.mental-health-heading ul li{
+
+  display:inline-block;
+  padding:0px 30px;
+
+}
+.mental-health-heading ul li{
+  color:#65179C;
+  font-weight:bold;
+}
+
+.mental-health-title h2{
+  color:#BA265B;
+  font-weight:bold;
+}
+
+.mental-health-students-sub-headings{
+  cursor:pointer;
+}
+.depression-img img{
+  border-radius:1%;
+}
+
+.anxiety-img img{
+  border-radius:1%;
+}
+
+.eat-disorder-img img{
+  border-radius:1%;
+}
+
+.loneliness-img img{
+  border-radius:1%;
+}
+
+
+
+.toned-black{
+  background-color:#2f3f53;
+}
+.white{
+  color:#FFF;
+}
+.padding-top{
+  padding:20px 20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+    color:#BA265B;
+  }
+  textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 4px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      color:#BA265B;
+      max-height:200px;
+      resize: none;
+    }
+    textarea::-webkit-input-placeholder{
+      color:#74125C;
+    }
+  input[type=text]::-webkit-input-placeholder{
+    color:#74125C;
+  }
+  input[type=submit] {
+    width:100%;
+    background-color: #BA265B;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.top-botttom-padding{
+  padding:40px 0 65px;
+}
+h2.contact-more{
+  color:white;
+  padding:20px 0 0;
+}
+ul.contact-more{
+  list-style-type: none;
+  color:white;
+  font-size:1.6em;
+  padding:0;
+}
+ .align-text-center{
+   text-align:center;
+ }
+.footer{
+  background-color:#0B3C5D;
+  color:#d3d3d3;
+  padding:50px 0;
+  font-size:1.1em;
+}
+.remove-list-style ul{
+  margin:0;
+}
+.remove-list-style ul{
+  list-style-type: none;
+  line-height:2.6em;
+}
+
+@media only screen and (max-width: 1116px){
+
+  #s3-content-width-1 {
+  width:100%;
+  }
+  #s3-content-width-2 {
+  width:100%;
+  }
+  #s3-content-width-3 {
+  width:100%;
+  }
+  #s3-content-width-4 {
+  width:100%;
+  }
+  #s3-content-width-5 {
+  width:100%;
+  }
+  .tips-content-all{
+    height:200px;
+    margin: 0 0 10px 0 auto;
+    padding: 10px;
+  }
+  .tips-content-all p{
+  text-align: center;
+  }
+  .tips-background{
+    height:1200px;
+  }
+}
+
+/* ===============
+   Signs and Symptoms
+   =============== */
+.signs-symps-title h1{
+  text-align:center;
+  padding:50px 0px 10px 0px;
+}
+.signs-symps-section{
+  height:450px;
+}
+.signs-symps-section h2{
+  color:#FFF;
+  text-align:center;
+}
+.signs-symps-section ul{
+  color:#FFF;
+  font-size:24px;
+
+}
+#signs-symps-anxiety{
+  background-color: #65179C;
+}
+#signs-symps-depression{
+background-color:#BA265B;
+}
+#signs-symps-eat-disorders{
+background-color:#74125C;
+}
+#signs-symps-lonliness{
+background-color:#7C7EFF;
+}
+
+ /* ===============
+    Resources
+    =============== */
+.resources-title h1 {
+  text-align:center;
+}
+.resources-content h2,.resources-content p{
+  text-align:center;
+}
+.resources-content h2{
+  color:#65179C;
+  font-weight: bold;
+}
+.signs-symps-title{
+  padding-top:10px;
+}
+.signs-symps-section ul{
+  padding-top:25px;
+}
+ p a:hover, p a:visited, p a:active, p a:focus{
+  text-decoration:none;
+}
+ p a:hover{
+font-weight:1600;
+}
+/*remove gutters*/
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:-0px;
+    padding-left:-0px;
+}
+
+.
