@@ -65,14 +65,11 @@ padding-right: 140px !important;
 
 .header-image{
   width:100%;
-
+  background-position: 0 11%;
   background-image:url("images/header-image.jpg");
-
-  /* Set a specific height */
    height:300px;
-   /* Create the parallax scrolling effect */
    background-attachment: fixed;
-   background-position: center;
+
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -314,26 +311,25 @@ text-align:center;
 .padding-top{
   padding:20px 20px;
 }
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 2px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
 
-    box-sizing: border-box;
-    color:#BA265B;
-  }
-  textarea {
-      width: 100%;
+
+input[type=text], select {
+  width: 86%;
       padding: 12px 20px;
-      margin: 4px 0;
-      display: inline-block;
+      margin: 8px auto;
+      display: block;
       border: 1px solid #ccc;
       box-sizing: border-box;
-      color:#BA265B;
-      max-height:200px;
-      resize: none;
+      color: #BA265B;
+  }
+  textarea {
+    width: 86%;
+        padding: 12px 20px;
+        margin: 8px auto;
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        color: #BA265B;
     }
     textarea::-webkit-input-placeholder{
       color:#74125C;
@@ -342,16 +338,20 @@ input[type=text], select {
     color:#74125C;
   }
   input[type=submit] {
-    width:100%;
+    width: 30%;
     background-color: #BA265B;
     color: white;
     padding: 18px 20px;
-    margin: 8px 0;
+    margin: 1px 7%;
     border: none;
     cursor: pointer;
 }
 .top-botttom-padding{
   padding:40px 0 65px;
+}
+h2.form-title-container{
+  width: 84%;
+  margin: 0 7%;
 }
 h2.contact-more{
   color:white;
